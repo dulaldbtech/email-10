@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email-10-Trend Report</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        #register-btn {
+            width: 220px;
+            height: 40px;
+            border-radius: 50px;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FC9980;
+            float: right;
+            margin-top: 40px;
+        }
+
+        #banner {
+            background-image: url('./assets/banner@2x.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom-left-radius: 50px;
+            height: 300px;
+        }
+
+        #banner-text-bg {
+            background-color: #EE7100;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom-left-radius: 50px;
+            opacity: 0.6;
+            height: 50px;
+            padding: 20px 0 0 40px;
+            position: relative;
+            top: 230px;
+        }
+
+        #banner-text {
+            position: absolute;
+            top: 360px;
+            font-size: 24px;
+            padding: 12px 0 0 40px;
+            font-weight: bold;
+            z-index: 1;
+            color: #ffffff;
+        }
+
+        .body-text {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            color: #6d6d6d;
+            margin-left: 36px;
+        }
+
+        .body-text-heading {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+            color: #707070;
+            margin: 20px 0 0 36px;
+        }
+
+        #reg-cta {
+            width: 320px;
+            height: 55px;
+            border-radius: 50px;
+            color: #ffffff;
+            padding-top: 13px;
+            background-color: #FC9980;
+            font-size: 18px;
+        }
+
+        #reg-cta-last {
+            width: 320px;
+            height: 36px;
+            border-radius: 50px;
+            color: #ffffff;
+            padding-top: 16px;
+            background-color: #FC9980;
+            font-size: 18px;
+        }
+
+        .speaker-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #6a6a6a;
+        }
+
+        .grid-img img {
+            border: 1px solid #ECE68A;
+            -webkit-box-shadow: 2px 4px 6px 0px rgba(92, 91, 86, 1);
+            -moz-box-shadow: 2px 4px 6px 0px rgba(92, 91, 86, 1);
+            box-shadow: 2px 4px 6px 0px rgba(92, 91, 86, 1);
+        }
+
+        #collage-cover {
+            background-image: url('/assets/banner.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 410px;
+            margin-left: 36px;
+        }
+
+        #date-time {
+            width: 370px;
+            margin: 0 auto;
+        }
+
+        #banner-sticker {
+            background-image: url(./assets/banner-sticker@2x.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 220px;
+            width: 209px;
+            position: absolute;
+            top: 82px;
+            right: 326px;
+        }
+
+        #collage-heading {
+            background-color: #FC9980;
+            width: 150px;
+            padding: 24px;
+            color: #ffffff;
+            font-family: Arial Narrow;
+            font-weight: bold;
+            position: relative;
+            top: 336px;
+            left: 7px;
+            font-size: 16px;
+            border-bottom-left-radius: 40px;
+        }
+
+        #callout-bg {
+            background-image: url('./assets/callout.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 210px;
+        }
+
+        li {
+            list-style: none;
+            padding-bottom: 7px;
+            color: #707070;
+        }
+
+        li img {
+            float: left;
+            display: inline-block;
+            padding-right: 7px;
+        }
+
+        .img-4 {
+            width: 106px;
+            height: 106px;
+            float: left;
+            border-bottom-right-radius: 20px;
+        }
+    </style>
+</head>
+
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0"
+    style="-webkit-text-size-adjust: none;margin: 0;padding: 0;background-color: #FAFAFA;width: 100%;">
+    <center>
+        <table border="0" cellpadding="0" cellspacing="0" height="100%" id="backgroundTable"
+            style="margin: 0;padding: 0;background-color: #fefefe;height: 100%;width: 100%;" width="100%">
+            <tbody>
+                <tr>
+                    <td align="center" style="border-collapse: collapse;" valign="top">
+                        <table border="0" cellpadding="10" cellspacing="0" id="templatePreheader"
+                            style="background-color: #fefefe;" width="520">
+                            <tbody>
+                                <tr>
+                                    <td class="preheaderContent" style="border-collapse: collapse;" valign="top">
+                                        <!-- Header -->
+                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="border-collapse: collapse;" valign="top">
+                                                        <div id="logo">
+                                                            <img width="130px" src="./assets/logo.png"
+                                                                alt="FrieslandCampina Logo">
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <a href="">
+                                                            <div id="register-btn">
+                                                                Download Trend Report
+                                                            </div>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- Intro Content -->
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <p class="body-text-heading">Dear X</p>
+                                                        <p class="body-text">Get ready to rock the market with some on-trend recipes.</p>
+                                                        <p class="body-text">Titivate your consumers’ taste buds and put your own take on recipes that are designed around the latest research-based
+                                                        trends in your market. These are recipes designed to accelerate your speed to market. They are all tried and tested…and
+                                                        we can guarantee they’re delicious because we’ve tasted them all. Several times because they’re so good! Your specially
+                                                        selected recipes:</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <h3 style="color: #707070; margin-left: 36px;">Discover the 2020
+                                                            food & beverages micro trends</h3>
+                                                        <div class="img-4">
+                                                            <div class="img-text">Nmae</div>
+                                                            <img src="./assets/callout.png" width="30px" alt="">
+                                                        </div>
+                                                        <div class="img-4">
+                                                            <div class="img-text">Nmae</div>
+                                                            <img src="./assets/callout.png" width="30px" alt="">
+                                                        </div>
+                                                        <div class="img-4">
+                                                            <div class="img-text">Nmae</div>
+                                                            <img src="./assets/callout.png" width="30px" alt="">
+                                                        </div>
+                                                        <div class="img-4">
+                                                            <div class="img-text">Nmae</div>
+                                                            <img src="./assets/callout.png" width="30px" alt="">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- Grid Style Image Heading -->
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <h2 class="body-text-heading">The most popular 2021 micro trends
+                                                        </h2>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- Grid Style Image-->
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <p class="body-text">In-home brewing systems get a vegan boost with this oaty version of your consumers’ favourite drink. Perfectly
+                                                        plant-based with full taste and texture.</p>
+                                                    </td>
+                                                    <td>
+                                                        <div class="grid-img">
+                                                            <div class="grid-img-text">Oat latte macchiato </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="grid-img">
+                                                            <div class="grid-img-text">Cornettoccino</div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <p class="body-text">This stunner tunes into the no-waste culture and offers a sustainable caffeine boost.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="body-text">Take your consumers on a tour of the tastes
+                                                            and textures of tea across Asia.</p>
+                                                    </td>
+                                                    <td>
+                                                        <div class="grid-img">
+                                                            <div class="grid-img-text">Cold brew protein-enriched coffee
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="grid-img">
+                                                            <div class="grid-img-text">Double brewed milk tea frappé
+                                                                with salted potato chip milk foam </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <p class="body-text">Is it a drink? Is it a snack? It’s both,
+                                                            and promises doubly delicious new take on textures.ite
+                                                            drink.
+                                                            Perfectly plant-based with full taste and texture.</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- Last Para with Heading-->
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <h2 class="body-text-heading">Market data for a confident launch
+                                                        </h2>
+                                                        <p class="body-text">
+                                                            Developing a new product from scratch is time-consuming and
+                                                            costly. And you want to be sure there’s a ready market for
+                                                            your new product before you commit.
+                                                        </p>
+                                                        <p class="body-text">
+                                                            We can help you to come up with new concepts, but also
+                                                            conduct in-depth research and arrange sensory and consumer
+                                                            panels. Tap into our wealth of market data to back up the
+                                                            fact that the trends are here to stay, and present valuable
+                                                            market opportunities.
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- CTAs -->
+                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a href="">
+                                                            <center>
+                                                                <a href="">
+                                                                    <div id="reg-cta-last">Take me to the market data
+                                                                    </div>
+                                                                </a>
+                                                            </center>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+
+</html>
